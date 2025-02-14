@@ -55,8 +55,8 @@
   :root {
     --clr-neutral-100: hsl(0, 0%, 100%);
     --clr-primary-100: hsl(205, 15%, 58%);
-    --clr-primary-400: hsl(215, 25%, 27%);
-    --clr-primary-800: hsl(217, 33%, 17%);
+    --clr-primary-400: #D7B4AE;
+    --clr-primary-800: #FFD6E2;
     --clr-primary-900: hsl(218, 33%, 9%);
   }
   
@@ -85,7 +85,19 @@
     border-radius: 0.5rem;
     box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
   }
+
+  .scroller__inner img {
+    border-radius: 5px;
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+  }
   
+    .scroller__inner li {
+        color: #444; 
+}
+
   /* for testing purposed to ensure the animation lined up correctly */
   .test {
     background: red !important;
